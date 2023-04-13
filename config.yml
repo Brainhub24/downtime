@@ -4,10 +4,10 @@
 # All defaults values can be overriden per host basis
 hosts:
   # Example / test root domain
-  - name: google.com
-    title: Google
+  - name: netcore.digital
+    title: NETCORE
   # Example / test url
-  - name: github.com/lowlighter/downtime
+  - name: github.com/Brainhub24/CyberChef
     title: Downtime repository
   # Example / test ip with port using ncat
   - name: "8.8.8.8"
@@ -23,7 +23,7 @@ site:
   # Title
   title: Downtime
   # Favicon / logo
-  favicon: https://simon.lecoq.io/src/icon.png
+  # favicon: https://simon.lecoq.io/src/icon.png
   # Refresh rate of status images for client
   refresh_rate_sec: 120
 
